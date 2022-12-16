@@ -1,0 +1,33 @@
+.hero-section{
+    margin-top: 2rem;
+   display: grid;
+  grid-template-columns: auto auto auto;
+}
+.left-side{
+    margin-top: 3rem;
+    width: 50%;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.welcome span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    color: var(--primaryColor);
+}
+
+.left-side h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 92px;
+    margin: 4px 0;
+
+}
+.left-side h1 strong{
+    background-color: var(--secondaryColor);
+    padding: 0 0.5rem;
+    font-size: 56px;
+}
