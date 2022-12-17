@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       {/* header */}
+      <div className="container">
       <header>
         <div className="logo">Sarbin</div>
       <ScrollspyNav
@@ -33,6 +34,7 @@ function App() {
         </ul>
         </ScrollspyNav>
         </header>
+        </div>
       <div>
         <section id="hero" >
           <HeroSection/>
