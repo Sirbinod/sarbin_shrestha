@@ -1,20 +1,23 @@
 import ScrollspyNav from "react-scrollspy-nav";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
     <div className="App">
-      <nav  >
+      {/* header */}
+      <div className="container">
+      <header>
         <div className="logo">Sarbin</div>
       <ScrollspyNav
-        scrollTargetIds={["section_1", "section_2", "section_3"]}
-        offset={100}
+        scrollTargetIds={["hero","service", "portfolio", "about","contact"]}
+        offset={-100}
         activeNavClass="is-active"
         scrollDuration="1000"
         headerBackground="true"
       >
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="#hero">Home</a>
           </li>
           <li>
             <a href="#service">Service</a>
@@ -30,23 +33,24 @@ function App() {
           </li>
         </ul>
         </ScrollspyNav>
-        </nav>
+        </header>
+        </div>
       <div>
-        <div style={{ height: "400px" }}>
-          <span>Welcome!</span>
-        </div>
-        <div id="service" style={{ height: "500px" }}>
+        <section id="hero" >
+          <HeroSection/>
+        </section>
+        <section id="service" >
           <span>Service</span>
-        </div>
-        <div id="portfolio" style={{ height: "500px" }}>
+        </section>
+        <section id="portfolio" >
           <span>Portfolio</span>
-        </div>
-        <div id="about" style={{ height: "500px" }}>
+        </section>
+        <section id="about" >
           <span>About</span>
-        </div>
-        <div id="contact" style={{ height: "500px" }}>
+        </section>
+        <section id="contact" >
           <span>Contact</span>
-        </div>
+        </section>
       </div>
     </div>
   );
