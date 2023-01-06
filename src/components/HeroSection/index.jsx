@@ -1,17 +1,15 @@
 import React from "react";
 import "./style.css";
-import { ReactComponent as ReactLogo } from "../../assets/icons/welcome.svg";
 import { ReactComponent as Download } from "../../assets/icons/download.svg";
 import Cover from "../../assets/images/cover.jpg";
+import Welcome from "../Common/Welcome";
+
 const HeroSection = () => {
   return (
     <>
       <div className="hero-section container">
         <div className="left-side">
-          <div className="welcome">
-            <ReactLogo />
-            <span>Welcome to everyone</span>
-          </div>
+          <Welcome data="Welcome to everyone" />
           <h1>
             Let’s <strong>Grow</strong> Your
           </h1>{" "}
@@ -36,12 +34,12 @@ const HeroSection = () => {
         <div className="right-side">
           <div className="cover-image">
             <img src={Cover} alt="cover image" />
-            </div>
+          </div>
         </div>
       </div>
       <div className="hero-bottom-side">
         <div className="container contain">
-          <div  className="custom-padding">
+          <div className="custom-padding">
             <h1>10+</h1>
             <h3>project Well Done</h3>
           </div>
