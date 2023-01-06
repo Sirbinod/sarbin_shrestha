@@ -1,0 +1,25 @@
+.welcome{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.welcome span{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22.38px;
+    color: var(--primaryColor);
+}
+
+.card{
+    padding: 2rem 1.4rem;
+    /* background-color: #22272F; */
+    background-color: #2B313B;
+}
+
+.card .card-icon{
+    width: fit-content;
+    padding: 1.3rem;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: var(--primaryColor);
+}

@@ -1,69 +1,67 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700");
 
-:root{
-    --fontFamily: 'Quicksand';
-    --largeFont:"Montserrat";
-    --themeColor:#FFFFFF;
-    --primaryColor:#FFB300;
-    --secondaryColor:#0D960D;
+:root {
+  --fontFamily: "Quicksand";
+  --largeFont: "Montserrat";
+  --themeColor: #ffffff;
+  --primaryColor: #ffb300;
+  --secondaryColor: #0d960d;
 }
-html{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  
+html {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #1E2229;
-    color:var(--themeColor);
-    font-family: var(--fontFamily);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    cursor: default;
-    margin: 0;
-    padding: 0;
-}
-
-.container{
-    width: 80%;
-    margin: 0 auto;
+body {
+  background-color: #1e2229;
+  color: var(--themeColor);
+  font-family: var(--fontFamily);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: default;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    background-color: #1E2229;
-    padding: 20px 0;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-header .logo{
-    font-size: 1.5rem;
-    font-weight: 700;
-    line-height: 1.8rem;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #1e2229;
+  padding: 20px 0;
 }
-header ul{
+header .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+}
+header ul {
   display: flex;
   gap: 4rem;
-  list-style-type:none
+  list-style-type: none;
 }
 
-header ul a{
-    color: var(--themeColor);
-    text-decoration: none;
-
+header ul a {
+  color: var(--themeColor);
+  text-decoration: none;
 }
 
-.is-active{
-    color: var(--primaryColor);
-    text-decoration: underline;
+.is-active {
+  color: var(--primaryColor);
+  text-decoration: underline;
 }
 
-section{
+/* section{
     height: 100vh;
-}
+} */
