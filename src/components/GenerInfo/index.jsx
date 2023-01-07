@@ -32,25 +32,25 @@ function GenerInfo() {
     },
   ];
   return (
-    <div className="container gener-info">
-      <div className="info-top-contain">
-        <div className="welcome-center">
-          <Welcome data="Why should to choose me" />
+    <div className="container ">
+      <div className="gener-info">
+        <div className="info-top-contain">
+          <div className="welcome-center">
+            <Welcome data="Why should to choose me" />
+          </div>
+          <h1>
+            This 3 <strong>Reason</strong> To Why <strong>Choose</strong>Me
+          </h1>
+            <p>
+              From what I understand based on what we've discussed so far,
+              ensure higher efficiency and employee performance.
+            </p>
         </div>
-        <h1>
-          This 3 <strong>Reason</strong> To Why <strong>Choose</strong>Me
-        </h1>
-        <p>
-          From what I understand based on what I've read about the company and
-          what we've discussed so far, you're looking for an operations manager
-          to oversee operational activities at every level organization to
-          ensure higher efficiency and employee performance.
-        </p>
-      </div>
-      <div className="card-grid">
-        {CardInfo.map((card) => (
-          <Card data={card} />
-        ))}
+        <div className="card-grid">
+          {CardInfo.map((card) => (
+            <Card data={card} />
+          ))}
+        </div>
       </div>
     </div>
   );

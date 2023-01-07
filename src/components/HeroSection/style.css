@@ -1,10 +1,10 @@
 .hero-section {
-  margin-top: 1rem !important;
+  margin-top: 0.6rem !important;
   display: flex;
   justify-content: space-between;
 }
 .left-side {
-  margin-top: 3rem;
+  margin-top: 2.4rem;
   width: 50%;
 }
 
@@ -56,10 +56,10 @@
 .right-side .cover-image {
   position: absolute;
   right: 0;
-  top: 0;
+  top: 2;
   background: #000;
-  width: 420px;
-  height: 540px;
+  width: 410px;
+  height: 520px;
   border-radius: 1px;
 }
 .right-side .cover-image img {
@@ -73,7 +73,6 @@
   background-color: var(--primaryColor);
   width: 100%;
   margin-top: 36px;
-  padding: 5px 0;
 }
 .hero-bottom-side .contain {
   display: flex;

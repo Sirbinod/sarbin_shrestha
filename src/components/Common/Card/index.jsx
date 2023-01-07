@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as ReactLogo } from "../../../assets/icons/welcome.svg";
+import { ReactComponent as Arrow } from "../../../assets/icons/arrow.svg";
 
 function Card({ data }) {
   return (
@@ -7,6 +7,10 @@ function Card({ data }) {
       <div className="card-icon">{data.icon}</div>
       <h2>{data.title}</h2>
       <p>{data.description}</p>
+      <div className="learn-more">
+        <span>Learn More</span>
+        <Arrow />
+      </div>
     </div>
   );
 }

@@ -1,16 +1,16 @@
 .gener-info {
-  margin-top: 6rem !important;
+  margin: 4rem 0;
 }
 .info-top-contain {
   text-align: center;
 }
 
 .info-top-contain h1 {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 600;
   line-height: 7px;
   font-family: var(--largeFont);
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .info-top-contain h1 strong {
@@ -18,12 +18,17 @@
   padding: 0 0.5rem;
   font-size: 29px;
 }
+.info-top-contain p {
+  max-width: 50%;
+  margin: auto;
+}
+
 .welcome-center {
   display: flex;
   justify-content: center;
 }
 .card-grid {
-  margin-top: 5rem;
+  margin-top: 3.5rem;
   display: grid;
   grid-gap: 1rem;
 }
