@@ -41,10 +41,10 @@ const HeroSection = () => {
         <div className="container contain">
           <div className="custom-padding">
             <h1>10+</h1>
-            <h3>project Well Done</h3>
+            <h3>Project Well Done</h3>
           </div>
           <div>
-            <h1>3+</h1>
+            <h1>3 Years</h1>
             <h3>Experience Works</h3>
           </div>
         </div>

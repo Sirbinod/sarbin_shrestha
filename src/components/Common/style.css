@@ -1,25 +1,42 @@
-.welcome{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.welcome {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-.welcome span{
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 22.38px;
-    color: var(--primaryColor);
-}
-
-.card{
-    padding: 2rem 1.4rem;
-    /* background-color: #22272F; */
-    background-color: #2B313B;
+.welcome span {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 22.38px;
+  color: var(--primaryColor);
 }
 
-.card .card-icon{
-    width: fit-content;
-    padding: 1.3rem;
-    font-size: 30px;
-    font-weight: 800;
-    background-color: var(--primaryColor);
+.card {
+  padding: 2rem 1.4rem;
+  background-color: #22272f;
+}
+
+.card:hover {
+  background-color: #2b313b;
+  border-top: 3px solid var(--primaryColor);
+}
+
+.card .card-icon {
+  width: fit-content;
+  padding: 1.3rem;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: var(--primaryColor);
+  margin-bottom: 2rem;
+}
+
+.learn-more {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.learn-more span {
+  color: var(--primaryColor);
+  font-size: 0.85 rem;
+  text-decoration: underline;
 }
