@@ -1,4 +1,5 @@
 import ScrollspyNav from "react-scrollspy-nav";
+import About from "./components/About";
 import GenerInfo from "./components/GenerInfo";
 import HeroSection from "./components/HeroSection";
 
@@ -49,11 +50,11 @@ function App() {
         <section id="service">
           <GenerInfo />
         </section>
+        <section id="about">
+          <About /> 
+        </section>
         <section id="portfolio">
           <span>Portfolio</span>
-        </section>
-        <section id="about">
-          <span>About</span>
         </section>
         <section id="contact">
           <span>Contact</span>
