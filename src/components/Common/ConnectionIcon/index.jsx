@@ -1,7 +1,6 @@
 import React from "react";
 
 function ConnectionIcon({ icon }) {
-  console.log(icon, "99999999999999999999");
   return (
     <div
       style={{
