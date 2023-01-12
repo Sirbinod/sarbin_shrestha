@@ -1,0 +1,15 @@
+.service {
+  margin: 10em 0 5em 0;
+}
+
+.service-content {
+  display: flex;
+  align-items: center;
+}
+
+.service-content .detail {
+  width: 50%;
+}
+.service-content .detail p {
+  margin-left: 3em;
+}

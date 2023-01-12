@@ -1,7 +1,10 @@
 import ScrollspyNav from "react-scrollspy-nav";
 import About from "./components/About";
+import Footer from "./components/Footer";
 import GenerInfo from "./components/GenerInfo";
 import HeroSection from "./components/HeroSection";
+import Portfolio from "./components/Portfolio";
+import Service from "./components/Service";
 
 function App() {
   return (
@@ -47,17 +50,20 @@ function App() {
         <section id="hero">
           <HeroSection />
         </section>
-        <section id="service">
+        <section id="">
           <GenerInfo />
         </section>
         <section id="about">
           <About /> 
         </section>
+         <section id="service">
+          <Service />
+        </section>
         <section id="portfolio">
-          <span>Portfolio</span>
+         <Portfolio/>
         </section>
         <section id="contact">
-          <span>Contact</span>
+         <Footer/>
         </section>
       </div>
     </div>

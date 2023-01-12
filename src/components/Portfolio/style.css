@@ -1,0 +1,22 @@
+.portfolio {
+  margin: 8rem 0;
+}
+.portfolio-top {
+  text-align: center;
+}
+
+.portfolio-top p {
+  max-width: 50%;
+  margin: auto;
+}
+.cards-grid {
+  margin-top: 6rem;
+  display: grid;
+  grid-gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
