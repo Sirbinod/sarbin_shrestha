@@ -18,7 +18,7 @@
   top: 0;
   background: #000;
   width: 490px;
-  height: 546px;
+  height: 562px;
   border-radius: 1px;
 }
 .about-left .cover-image img {
@@ -31,19 +31,6 @@
   width: 50%;
 }
 
-.about-right h1 {
-  font-size: 43px;
-  font-weight: 600;
-  line-height: 44px;
-  font-family: var(--largeFont);
-  margin: 0.5em 0;
-}
-
-.about-right h1 strong {
-  background-color: var(--secondaryColor);
-  padding: 0 0.5rem;
-  font-size: 38px;
-}
 .about-right .connection {
   margin-top: 3rem;
   display: flex;
