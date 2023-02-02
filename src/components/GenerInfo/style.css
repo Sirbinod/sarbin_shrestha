@@ -13,3 +13,22 @@
 /* @media (min-width: 900px) {
   .card-grid { grid-template-columns: repeat(2, 1fr); }
 } */
+@media only screen and (max-width: 1034px) {
+  .info-top-contain p {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 878px) {
+  .info-top-contain p {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .info-top-contain p {
+    max-width: 90%;
+  }
+}
+
+

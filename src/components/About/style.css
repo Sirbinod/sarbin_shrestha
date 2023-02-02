@@ -17,7 +17,7 @@
   left: 0;
   top: 0;
   background: #000;
-  width: 490px;
+  width: 90%;
   height: 562px;
   border-radius: 1px;
 }
@@ -40,4 +40,23 @@
 
 .about-right .connection h2 {
   font-size: 14px;
+}
+
+@media only screen and (max-width: 800px) {
+  .about .about-contain {
+    display: block;
+  }
+
+  .about-contain .about-left {
+    width: 100%;
+    position: unset;
+  }
+  .about-left .cover-image {
+    position: unset;
+    width: 100%;
+  }
+  .about-contain .about-right {
+    margin-top: 2em;
+    width: 100%;
+  }
 }

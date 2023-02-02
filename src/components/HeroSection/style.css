@@ -96,3 +96,33 @@
   font-weight: 400;
   color: #000;
 }
+
+@media only screen and (max-width: 1034px) {
+  .hero-section {
+    display: block;
+  }
+  .left-side {
+    width: 100%;
+  }
+
+  .right-side {
+    margin-top: 1em;
+    width: 100%;
+    /* position: unset; */
+    height: 474px;
+  }
+  .right-side .cover-image {
+    /* position: unset; */
+
+    width: 100%;
+    /* height: ; */
+    bottom: 3;
+    border-radius: 1px;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .hero-bottom-side .contain .custom-padding {
+    margin: 8px 8px 8px 8px;
+  }
+}
